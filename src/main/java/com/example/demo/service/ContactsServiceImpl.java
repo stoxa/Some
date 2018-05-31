@@ -23,7 +23,7 @@ public class ContactsServiceImpl implements ContactService {
             List<Contact> contactsPack = contactsDao.getContactsPack(startPosition, PACKSIZE);
             if(contactsPack.size()==0) break;
             startPosition = contactsPack.get(contactsPack.size()-1).getId();
-            contacts.addAll(contactsPack.stream().filter(i -> i.getName().matches(regexp)).collect(Collectors.toList()));
+            contacts.addAll(contactsPack.stream().filter(i -> !i.getName().matches(regexp)).collect(Collectors.toList()));
         }
         return contacts;
     }
