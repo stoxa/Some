@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 5432, host: 5432    # Postgres DB
 
   # Share the working dir - host, guest
-  config.vm.synced_folder "project", "/vagrant"
+  config.vm.synced_folder "src", "/vagrant"
   config.vm.synced_folder "puppet/modules", "/puppet"
 
   config.vm.provision "shell", inline: "apt-get update --fix-missing"
