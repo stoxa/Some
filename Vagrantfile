@@ -10,10 +10,9 @@ Vagrant.configure("2") do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  config.vm.box = "precise64"
-
+  config.vm.box = "hashicorp/precise64"
   # Grab this via `vagrant box add precise64 http://files.vagrantup.com/precise64.box`
-  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  #config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
   # Forward ports
   config.vm.network :forwarded_port, guest: 8080, host: 8080    # Java app server; jetty
