@@ -1,0 +1,24 @@
+[submodule "puppet/modules/puppetlabs-apt"]
+	path = puppet/modules/puppetlabs-apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "puppet/modules/puppetlabs-concat"]
+	path = puppet/modules/puppetlabs-concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "puppet/modules/puppetlabs-firewall"]
+	path = puppet/modules/puppetlabs-firewall
+	url = https://github.com/puppetlabs/puppetlabs-firewall.git
+[submodule "puppet/modules/puppetlabs-java"]
+	path = puppet/modules/puppetlabs-java
+	url = https://github.com/puppetlabs/puppetlabs-java.git
+[submodule "puppet/modules/puppet-maven"]
+	path = puppet/modules/puppet-maven
+	url = https://github.com/7terminals/puppet-maven.git
+[submodule "puppet/modules/puppetlabs-postgresql"]
+	path = puppet/modules/puppetlabs-postgresql
+	url = https://github.com/puppetlabs/puppetlabs-postgresql.git
+[submodule "puppet/modules/puppetlabs-stdlib"]
+	path = puppet/modules/puppetlabs-stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "puppet/modules/puppet-wget"]
+	path = puppet/modules/puppet-wget
+	url = https://github.com/voxpupuli/puppet-wget.git
